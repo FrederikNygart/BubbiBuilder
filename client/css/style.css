@@ -1,0 +1,20 @@
+.grad{
+    background: linear-gradient(#1ebeb8, #36B8E9);
+}
+
+.buttoncostum {
+    background-color: #8BBF37; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}

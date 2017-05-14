@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Bubbi Builder</title>
+</head>
+
+<body class="grad">
+    <div id="titleContainer" >
+
+        <img src="images/ui/titleBubbiBuilder.png" alt="Bubbi Builder" style="width:376px;height:76px;position:absolute;"/>
+
+        <div id="chatContentContainer" align="right">
+            <button class="buttoncostum" onclick="toggleChat()">Chat</button>
+
+            <div id="chat-container">
+                <div id="chat-text" style="width:380px;height:100px;overflow-y:scroll">
+                    <h1>Hello!</h1>
+                </div>
+
+                <form id="chat-form">
+                    <input id="chat-input" type="text" style="width:350px"></input>
+                </form>
+            </div>
+            <script type="text/javascript">
+     
+                function toggleChat() {
+                    var chat = document.getElementById("chat-container");
+                    if(isHidden(chat)) {
+                        chat.style.visibility = "visible";
+                    } else {
+                        chat.style.visibility = "hidden";
+                    }
+
+                }
+                function isHidden(element) {
+                    var style = window.getComputedStyle(element);
+                    return (style.visibility === 'hidden')
+                }
+    </script>
+            <script src="bundle.js"></script>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

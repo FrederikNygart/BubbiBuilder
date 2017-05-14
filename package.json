@@ -1,0 +1,36 @@
+{
+  "name": "bubbi-builder",
+  "version": "0.0.1",
+  "description": "Multiplayer Online Battle Tower Defense Arena",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Hyllested/BubbiBuilder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Hyllested/BubbiBuilder/issues"
+  },
+  "homepage": "https://gitlab.com/Hyllested/BubbiBuilder#README",
+  "dependencies": {
+    "express": "^4.14.0",
+    "socket.io": "^1.4.8",
+    "socket.io-client": "^1.4.8"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-express-server": "^0.5.3",
+    "jshint": "^2.9.3"
+  }
+}
